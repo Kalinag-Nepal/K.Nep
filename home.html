@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a3a9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .team-member {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>K.Nep Photo Selling Platform</h1>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Why did we create this online platform ?</h2>
+            <p>We found that there is no any kind of websites from which we can sell our best photos.So,this platform is to buy and sell the best photos as well as products
+for cheap cost.</p>
+
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="photo studio 1.jpg" alt="Team Member 1">
+                    <h3>Kalinag Photo Studio & Computer Training Center</h3>
+                    <p>Thali,Kathmandu</p>
+                
+                </div>
+                <div class="team-member">
+                    <img src="electricals.jpg" alt="Team Member 2">
+                    <h3>Kalinag Electricals</h3>
+                    <p>Birendrachowk,Kathmandu</p>
+                </div>
+                <div class="team-member">
+                    <img src="baba.jpg" alt="Team Member 3">
+                    <h3>Baba Photo Studio</h3>
+                    <p>Babachowk,Kathmandu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kalinag Nepal.</p>
+    </footer>
+</body>
+</html>
